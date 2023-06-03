@@ -1,5 +1,11 @@
-@import  '../components/app/app';
-@import '../components/Header/header';
+@import './fonts';
+@import './mixins';
+@import '../components/App/app';
+@import '../components/InfoBar/info-bar';
+@import '../components/TitleBar/title-bar';
+@import '../components/Menu/menu';
+@import '../components/Board/board';
+
 * {
   margin: 0;
   padding: 0;

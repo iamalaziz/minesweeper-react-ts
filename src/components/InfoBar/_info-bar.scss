@@ -1,0 +1,10 @@
+.info-bar {
+  background-color: #c0c0c0;
+  padding: 9px;
+  margin: 3px;
+  @include borders(#7b7b7b, #fff);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
