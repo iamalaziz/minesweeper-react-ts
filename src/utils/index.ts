@@ -16,7 +16,7 @@ export const generateCells = (): Cell[][] => {
   }
 
   // randomly put 40 bombs
-  let bombsPlaced = 0;
+  const bombsPlaced = 0;
   while(bombsPlaced < NO_OF_BOMBS) {
     break;
   }
