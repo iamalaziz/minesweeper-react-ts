@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Counter: React.FC = () => {
-  return <>000</>;
+  return <>980</>;
 };
 
 export default Counter;

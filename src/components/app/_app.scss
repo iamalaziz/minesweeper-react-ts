@@ -7,7 +7,7 @@
   border-color: silver #000 #000 silver;
   background-color: silver;
   &__board-container {
-    @include borders(#fff, #7b7b7b);
+    @include borders();
     padding: 20px;
   }
   

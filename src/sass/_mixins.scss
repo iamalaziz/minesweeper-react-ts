@@ -1,4 +1,4 @@
-@mixin borders($left-top, $right-bottom) {
+@mixin borders($left-top: #fff, $right-bottom: #7b7b7b) {
   border-width: 4px;
   border-style: solid;
   border-left-color: $left-top;
@@ -10,6 +10,7 @@
 @mixin cell {
   width: 40px;
   height: 40px;
+  background-color: silver;
   border-top: 2px solid #fff;
   border-left: 2px solid #fff;
   border-bottom: 2px solid #808080;
