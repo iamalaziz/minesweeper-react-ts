@@ -1,6 +1,10 @@
 .Button {
   @include cell();
 
+  &.visible {
+    background-color: #808080; 
+    border-width: 1px;
+  }
   &:active {
     border-top: 2px solid #808080;
     border-left: 2px solid #808080;

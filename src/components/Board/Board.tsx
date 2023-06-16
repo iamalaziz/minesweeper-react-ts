@@ -4,10 +4,18 @@ import Button from '../Button/Button';
 
 const Board: React.FC = () => {
   const [cells, setCells] = useState(generateCells());
-
+  console.log(cells);
   const renderCells = (): React.ReactNode => {
     return cells.map((row, rowIndex) =>
-      row.map((cell, colIndex) => <Button key={`${rowIndex}-${colIndex}`} />)
+      row.map((cell, colIndex) => (
+        <Button
+          row={rowIndex}
+          col={colIndex}
+          value={cell.value}
+          state={cell.state}
+          key={`${rowIndex}-${colIndex}`}
+        />
+      ))
     );
   };
   return <div className="board">{renderCells()}</div>;
