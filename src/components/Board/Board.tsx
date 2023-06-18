@@ -4,7 +4,7 @@ import Button from '../Button/Button';
 
 const Board: React.FC = () => {
   const [cells, setCells] = useState(generateCells());
-  console.log(cells);
+
   const renderCells = (): React.ReactNode => {
     return cells.map((row, rowIndex) =>
       row.map((cell, colIndex) => (

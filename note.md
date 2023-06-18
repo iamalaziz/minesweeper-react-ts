@@ -1,2 +1,3 @@
 - three nav icons hover effect with svg
 - help
+- favicon

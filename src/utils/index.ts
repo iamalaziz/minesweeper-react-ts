@@ -103,3 +103,4 @@ export const generateCells = (): Cell[][] => {
 
   return cells;
 };
+
