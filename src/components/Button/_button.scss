@@ -1,9 +1,47 @@
 .Button {
+  position: relative;
+  cursor: pointer;
+  font-size: 24px;
+  font-family: "Minecraft";
+  display: flex;
+  align-items: center;
+  justify-content: center;
   @include cell();
-
+  svg {
+    position: absolute;
+    width: 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
   &.visible {
-    background-color: #808080; 
+    border-color: #d4d4d4; 
     border-width: 1px;
+    
+  }
+  &.value-1 {
+    color: blue;
+  }
+  &.value-2 {
+    color: green;
+  }
+  &.value-3 {
+    color: red;
+  }
+  &.value-4 {
+    color: purple;
+  }
+  &.value-5 {
+    color: maroon;
+  }
+  &.value-6 {
+    color: turquoise;
+  }
+  &.value-7 {
+    color: black;
+  }
+  &.value-8 {
+    color: grey;
   }
   &:active {
     border-top: 2px solid #808080;
@@ -11,4 +49,5 @@
     border-bottom: 2px solid #fff;
     border-right: 2px solid #fff;
   }
+
 }
