@@ -1,9 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const Timer: React.FC = () => {
-  return (
-   <>000</>
-  );
-};
+    return <>000</>
+}
 
-export default Timer;
+export default Timer

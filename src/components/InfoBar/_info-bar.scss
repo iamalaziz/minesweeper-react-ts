@@ -1,22 +1,22 @@
 .info-bar {
-  background-color: #c0c0c0;
-  padding: 9px;
-  margin: 3px;
-  @include borders(#7b7b7b, #fff);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  &__counter {
-    background-color: #222;
-    @include borders(#222, #fff);
-    border-width: 1px;
-    color: red;
-    font-family: 'Minecraft';
-    font-size: 40px;
-  }
-  &__status {
-    img {
-      width:40px;
+    background-color: #c0c0c0;
+    padding: 9px;
+    margin: 3px;
+    @include borders(#7b7b7b, #fff);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &__counter {
+        background-color: #222;
+        @include borders(#222, #fff);
+        border-width: 1px;
+        color: red;
+        font-family: 'Minecraft';
+        font-size: 40px;
     }
-  }
+    &__status {
+        img {
+            width: 40px;
+        }
+    }
 }

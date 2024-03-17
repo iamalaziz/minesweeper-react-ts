@@ -1,12 +1,10 @@
 .app {
-  margin: 2rem 0;
-  padding: 1px;
-  border: 4px solid;
-  border-color: silver #000 #000 silver;
-  background-color: silver;
-  &__board-container {
-    @include borders();
-    padding: 20px;
-  }
-  
+    padding: 1px;
+    border: 4px solid;
+    border-color: silver #000 #000 silver;
+    background-color: silver;
+    &__board-container {
+        @include borders();
+        padding: 20px;
+    }
 }

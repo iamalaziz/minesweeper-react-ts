@@ -1,8 +1,8 @@
-import React from 'react';
-import { NO_OF_BOMBS } from '../../../constants';
+import React from 'react'
+import { NO_OF_BOMBS } from '../../../constants'
 
 const Counter: React.FC = () => {
-  return <>0{NO_OF_BOMBS}</>;
-};
+    return <>0{NO_OF_BOMBS}</>
+}
 
-export default Counter;
+export default Counter

@@ -1,45 +1,45 @@
 .bar {
-  background: linear-gradient(90deg, navy, #1084d0);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 5px;
-  &__content {
+    background: linear-gradient(90deg, navy, #1084d0);
     display: flex;
     align-items: center;
-  }
-  &__logo-icon {
-    img {
-      width: 30px;
-      margin-right: 10px;
+    justify-content: space-between;
+    padding: 5px;
+    &__content {
+        display: flex;
+        align-items: center;
     }
-  }
-  &__title {
-    color: #fff;
-    font-size: 1.2rem;
-    font-family: 'MS Sans Serif', sans-serif;
-  }
-  &__navigation,
-  .nav {
-    display: flex;
-    gap: 3px;
-    &__btn {
-      background-color: silver;
-      @include cell;
-      width: 25px;
-      height: 25px;
+    &__logo-icon {
+        img {
+            width: 30px;
+            margin-right: 10px;
+        }
     }
-    &__btn--hide {
-      display: flex;
-      align-items: flex-end;
-      padding: 3px;
-      background-color: silver;
-      @include cell;
-      width: 25px;
-      height: 25px;
-      img {
-        width: 9px;
-      }
+    &__title {
+        color: #fff;
+        font-size: 1.2rem;
+        font-family: 'MS Sans Serif', sans-serif;
     }
-  }
+    &__navigation,
+    .nav {
+        display: flex;
+        gap: 3px;
+        &__btn {
+            background-color: silver;
+            @include cell;
+            width: 25px;
+            height: 25px;
+        }
+        &__btn--hide {
+            display: flex;
+            align-items: flex-end;
+            padding: 3px;
+            background-color: silver;
+            @include cell;
+            width: 25px;
+            height: 25px;
+            img {
+                width: 9px;
+            }
+        }
+    }
 }
